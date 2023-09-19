@@ -1,0 +1,12 @@
+﻿EOSStudio/EOSNeoStudio/Library
+EOSStudio/EOSNeoStudio/Logs
+EOSStudio/EOSNeoStudio/*.csproj
+EOSStudio/EOSNeoStudio/EOSNeoStudio.sln
+EOSStudio/EOSNeoMyPlayer/My project/Library
+StudioBuild
+EOSStudio/EOSNeoMyPlayer/My project/Assembly-CSharp.csproj
+EOSStudio/EOSNeoMyPlayer/My project/My project.sln
+EOSStudio/EOSNeoMyPlayer/My project/Temp
+EOSStudio/EOSNeoMyPlayer/My project/Logs
+EOSStudio/EOSNeoStudio/obj
+EOSStudio/EOSNeoStudio/Temp
