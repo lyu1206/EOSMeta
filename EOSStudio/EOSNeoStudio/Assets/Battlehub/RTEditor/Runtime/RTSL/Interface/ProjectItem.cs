@@ -5,6 +5,7 @@ using System.Text;
 using System.IO;
 using System;
 
+using UnityEngine;
 using UnityObject = UnityEngine.Object;
 using System.ComponentModel;
 
@@ -1051,6 +1052,19 @@ namespace Battlehub.RTSL.Interface
             m_preview = preview;
             RaisePreviewDataChanged();
         }
+    }
+    [ProtoContract]
+    public class RemoteAssetItem : AssetItem
+    {
+        [ProtoMember(1)]
+        public string path;
+        public string Path => $"file://{Application.dataPath}/../..{path}";
+        public override Guid[] DependenciesGuids { get; set; }
+        public override long CustomDataOffset { get; set; }
+        public override Guid TypeGuid { get; set; }
+        public override PrefabPart[] Parts { get; set; }
+        public override Preview Preview { get; set; }
+        public override long[] Dependencies { get; set; }
     }
 }
 
