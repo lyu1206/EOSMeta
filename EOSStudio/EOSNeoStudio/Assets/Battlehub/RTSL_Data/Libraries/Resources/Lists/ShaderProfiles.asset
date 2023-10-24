@@ -1118,6 +1118,75 @@ MonoBehaviour:
       Max: 0
     PropertyTexDims: 020000000000000000000000000000000000000000000000000000000000000000000000
     IsHidden: 000000000000000000
+  - Name: DHC/BG_Ground
+    PropertyCount: 4
+    PropertyDescriptions:
+    - Top Tex
+    - Specular Pow
+    - tiling
+    - NoiseTex
+    PropertyNames:
+    - _MainTex
+    - _SpecPow
+    - _Scale
+    - _NoiseTex
+    PropertyTypes: 04000000030000000300000004000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 100
+      Min: 10
+      Max: 200
+    - Def: 1
+      Min: 0
+      Max: 100
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 02000000000000000000000002000000
+    IsHidden: 00000000
+  - Name: DHC/BG_GroundWall
+    PropertyCount: 3
+    PropertyDescriptions:
+    - Albedo (RGB)
+    - Specular Pow
+    - tiling
+    PropertyNames:
+    - _MainTex
+    - _SpecPow
+    - _Scale
+    PropertyTypes: 040000000300000003000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 100
+      Min: 10
+      Max: 200
+    - Def: 1
+      Min: 0
+      Max: 100
+    PropertyTexDims: 020000000000000000000000
+    IsHidden: 000000
+  - Name: DHC/BG_Objects
+    PropertyCount: 2
+    PropertyDescriptions:
+    - Albedo (RGB)
+    - Specular Pow
+    PropertyNames:
+    - _MainTex
+    - _SpecPow
+    PropertyTypes: 0400000003000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 100
+      Min: 10
+      Max: 200
+    PropertyTexDims: 0200000000000000
+    IsHidden: 0000
   - Name: FX/Flare
     PropertyCount: 1
     PropertyDescriptions:
@@ -1131,6 +1200,24 @@ MonoBehaviour:
       Max: 0
     PropertyTexDims: 02000000
     IsHidden: 00
+  - Name: GUI/3D Text Shader
+    PropertyCount: 2
+    PropertyDescriptions:
+    - Font Texture
+    - Text Color
+    PropertyNames:
+    - _MainTex
+    - _Color
+    PropertyTypes: 0400000000000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000000000000
+    IsHidden: 0000
   - Name: GUI/Text Shader
     PropertyCount: 2
     PropertyDescriptions:
@@ -4776,6 +4863,2502 @@ MonoBehaviour:
       Max: 0
     PropertyTexDims: 02000000
     IsHidden: 00
+  - Name: Kirnu/Marvelous/Bloom
+    PropertyCount: 2
+    PropertyDescriptions:
+    - Base (RGB)
+    - Bloom (RGB)
+    PropertyNames:
+    - _MainTex
+    - _Bloom
+    PropertyTypes: 0400000004000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000002000000
+    IsHidden: 0000
+  - Name: Kirnu/Marvelous/Camera Overlay
+    PropertyCount: 3
+    PropertyDescriptions:
+    - Texture
+    - Alpha Power
+    - Level
+    PropertyNames:
+    - _MainTex
+    - _AlphaPower
+    - _Level
+    PropertyTypes: 040000000200000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 020000000000000000000000
+    IsHidden: 000000
+  - Name: Kirnu/Marvelous/CustomLighting
+    PropertyCount: 19
+    PropertyDescriptions:
+    - Texture
+    - Layout Texture
+    - Layout Texture Power
+    - Front Color
+    - Top Color
+    - Right Color
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Tint
+    - Lightmap Power
+    - Shadow Light
+    - Lightmap Enabled
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _LayoutTexture
+    - _LayoutTexturePower
+    - _FrontColor
+    - _TopColor
+    - _RightColor
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _UseLightMap
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 04000000040000000200000000000000000000000000000000000000020000000000000000000000020000000000000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 02000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 00000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingDistanceLight
+    PropertyCount: 23
+    PropertyDescriptions:
+    - Texture
+    - Layout Texture
+    - Light Ramp Texture
+    - Layout Texture Power
+    - Light Max Distance
+    - Light position
+    - Additive blend
+    - Front Color
+    - Top Color
+    - Right Color
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Tint
+    - Lightmap Power
+    - Shadow Light
+    - Lightmap Enabled
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _LayoutTexture
+    - _LightRampTexture
+    - _LayoutTexturePower
+    - _LightMaxDistance
+    - _LightPos
+    - _additiveBlend
+    - _FrontColor
+    - _TopColor
+    - _RightColor
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _UseLightMap
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 0400000004000000040000000200000002000000010000000200000000000000000000000000000000000000020000000000000000000000020000000000000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000002000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 0000000000000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingHardFog
+    PropertyCount: 19
+    PropertyDescriptions:
+    - Texture
+    - Front color
+    - Top Color
+    - Right Color
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Tint
+    - Lightmap Power
+    - Lightmap Enabled
+    - Shadow Light
+    - Fog color
+    - Fog Y-start pos
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _FrontColor
+    - _TopColor
+    - _RightColor
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _LightmapColor
+    - _LightmapPower
+    - _UseLightMap
+    - _ShadowPower
+    - _FogColor
+    - _FogYStartPos
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 04000000000000000000000000000000000000000000000000000000000000000200000000000000020000000200000002000000000000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 02000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 00000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingMaster
+    PropertyCount: 58
+    PropertyDescriptions:
+    - Texture
+    - Main Texture Power
+    - Layout Texture
+    - Layout Texture Power
+    - Distance Light Texture
+    - Top Color
+    - Top Color Bottom
+    - Right Color
+    - Right Color Bottom
+    - Front Color
+    - Front Color Bottom
+    - Main Color Top
+    - Main Color Bottom
+    - Top Light
+    - Right Light
+    - Front Light
+    - Gradient Start Y
+    - Gradient Height
+    - Light Max Distance
+    - Light position
+    - Additive blend
+    - Rim Color
+    - Rim Color Bottom
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Fog color
+    - Fog Y-start pos
+    - Fog Height
+    - Fog Animation Height
+    - Fog Animation Frequency
+    - Distance Fog
+    - Distance Start
+    - Distance End
+    - Distance Density
+    - Fog static start
+    - Fog static start
+    - Lightmap Tint
+    - Lightmap Power
+    - Shadow Light
+    - Lightmap Enabled
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    - Alpha
+    - Cutoff
+    - Light Probe Power
+    - Specular Color
+    - Gloss
+    - Specular
+    - Light Max Distance
+    - Light position
+    - Additive blend
+    - __src
+    - __dst
+    - __zw
+    PropertyNames:
+    - _MainTex
+    - _MainTexPower
+    - _LayoutTexture
+    - _LayoutTexturePower
+    - _LightRampTexture
+    - _TopColor
+    - _TopColorBottom
+    - _RightColor
+    - _RightColorBottom
+    - _FrontColor
+    - _FrontColorBottom
+    - _MainColor
+    - _MainColorBottom
+    - _TopLight
+    - _RightLight
+    - _FrontLight
+    - _GradientStartY
+    - _GradientHeight
+    - _LightMaxDistance
+    - _LightPos
+    - _additiveBlend
+    - _RimColor
+    - _RimColorBottom
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _FogColor
+    - _FogYStartPos
+    - _FogHeight
+    - _FogAnimationHeight
+    - _FogAnimationFreq
+    - _UseFogDistance
+    - _FogStart
+    - _FogEnd
+    - _FogDensity
+    - _FogStaticStartPos
+    - _UseFogStaticStart
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _UseLightMap
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    - _Alpha
+    - _Cutoff
+    - _LightProbePower
+    - _SpecColorc
+    - _Shininess
+    - _Specular
+    - _LightMaxDistance
+    - _LightPos
+    - _additiveBlend
+    - _SrcBlend
+    - _DstBlend
+    - _ZWrite
+    PropertyTypes: 04000000030000000400000003000000040000000000000000000000000000000000000000000000000000000000000000000000020000000200000002000000020000000200000002000000010000000200000000000000000000000200000000000000000000000200000000000000020000000200000002000000020000000200000002000000020000000200000001000000020000000000000002000000020000000200000001000000010000000100000002000000030000000300000003000000000000000300000003000000020000000100000002000000020000000200000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 1
+      Min: 0
+      Max: 1
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0.5
+      Min: 0
+      Max: 1
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 1
+    - Def: 0
+      Min: 0
+      Max: 1
+    - Def: 0.5
+      Min: 0
+      Max: 1
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 8
+    - Def: 0.01
+      Min: 0
+      Max: 65
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 02000000000000000200000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000001010100000000000000000000010101
+  - Name: Kirnu/Marvelous/CustomLightingRS
+    PropertyCount: 17
+    PropertyDescriptions:
+    - Texture
+    - Front Color
+    - Top Color
+    - Right Color
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Tint
+    - Lightmap Power
+    - Shadow Light
+    - Lightmap Enabled
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _FrontColor
+    - _TopColor
+    - _RightColor
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _UseLightMap
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 0400000000000000000000000000000000000000020000000000000000000000020000000000000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 0000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingSimple
+    PropertyCount: 20
+    PropertyDescriptions:
+    - Texture
+    - Layout Texture
+    - Layout Texture Power
+    - Main Color
+    - Top Light
+    - Right Light
+    - Front Light
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Tint
+    - Lightmap Power
+    - Shadow Light
+    - Lightmap Enabled
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _LayoutTexture
+    - _LayoutTexturePower
+    - _MainColor
+    - _TopLight
+    - _RightLight
+    - _FrontLight
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _UseLightMap
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 0400000004000000020000000000000002000000020000000200000000000000020000000000000000000000020000000000000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 0000000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingSimpleDistanceLight
+    PropertyCount: 24
+    PropertyDescriptions:
+    - Texture
+    - Layout Texture
+    - Light Ramp Texture
+    - Layout Texture Power
+    - Light Max Distance
+    - Light position
+    - Additive blend
+    - Main Color
+    - Top Light
+    - Right Light
+    - Front Light
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Tint
+    - Lightmap Power
+    - Shadow Light
+    - Lightmap Enabled
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _LayoutTexture
+    - _LightRampTexture
+    - _LayoutTexturePower
+    - _LightMaxDistance
+    - _LightPos
+    - _additiveBlend
+    - _MainColor
+    - _TopLight
+    - _RightLight
+    - _FrontLight
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _UseLightMap
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 040000000400000004000000020000000200000001000000020000000000000002000000020000000200000000000000020000000000000000000000020000000000000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 020000000200000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 000000000000000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingSimpleDistanceLightRS
+    PropertyCount: 24
+    PropertyDescriptions:
+    - Texture
+    - Layout Texture
+    - Light Ramp Texture
+    - Layout Texture Power
+    - Light Max Distance
+    - Light position
+    - Additive blend
+    - Main Color
+    - Top Light
+    - Right Light
+    - Front Light
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Tint
+    - Lightmap Power
+    - Shadow Light
+    - Lightmap Enabled
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _LayoutTexture
+    - _LightRampTexture
+    - _LayoutTexturePower
+    - _LightMaxDistance
+    - _LightPos
+    - _additiveBlend
+    - _MainColor
+    - _TopLight
+    - _RightLight
+    - _FrontLight
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _UseLightMap
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 040000000400000004000000020000000200000001000000020000000000000002000000020000000200000000000000020000000000000000000000020000000000000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 020000000200000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 000000000000000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingSimpleRS
+    PropertyCount: 20
+    PropertyDescriptions:
+    - Texture
+    - Layout Texture
+    - Layout Texture Power
+    - Main Color
+    - Top Light
+    - Right Light
+    - Front Light
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Tint
+    - Lightmap Power
+    - Shadow Light
+    - Lightmap Enabled
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _LayoutTexture
+    - _LayoutTexturePower
+    - _MainColor
+    - _TopLight
+    - _RightLight
+    - _FrontLight
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _UseLightMap
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 0400000004000000020000000000000002000000020000000200000000000000020000000000000000000000020000000000000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 0000000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingSimpleSoftFog
+    PropertyCount: 29
+    PropertyDescriptions:
+    - Texture
+    - Layout Texture
+    - Layout Texture Power
+    - Main Color
+    - Top Light
+    - Right Light
+    - Front Light
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Tint
+    - Lightmap Power
+    - Shadow Light
+    - Lightmap Enabled
+    - Fog color
+    - Fog Y-start pos
+    - Fog Height
+    - Fog Animation Height
+    - Fog Animation Frequency
+    - Distance Fog
+    - Distance Start
+    - Distance End
+    - Distance Density
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _LayoutTexture
+    - _LayoutTexturePower
+    - _MainColor
+    - _TopLight
+    - _RightLight
+    - _FrontLight
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _UseLightMap
+    - _FogColor
+    - _FogYStartPos
+    - _FogHeight
+    - _FogAnimationHeight
+    - _FogAnimationFreq
+    - _UseFogDistance
+    - _FogStart
+    - _FogEnd
+    - _FogDensity
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 0400000004000000020000000000000002000000020000000200000000000000020000000000000000000000020000000000000002000000020000000200000000000000020000000200000002000000020000000200000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 0000000000000000000000000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingSimpleSoftFogRS
+    PropertyCount: 29
+    PropertyDescriptions:
+    - Texture
+    - Layout Texture
+    - Layout Texture Power
+    - Main Color
+    - Top Light
+    - Right Light
+    - Front Light
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Tint
+    - Lightmap Power
+    - Shadow Light
+    - Lightmap Enabled
+    - Fog color
+    - Fog Y-start pos
+    - Fog Height
+    - Fog Animation Height
+    - Fog Animation Frequency
+    - Distance Fog
+    - Distance Start
+    - Distance End
+    - Distance Density
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _LayoutTexture
+    - _LayoutTexturePower
+    - _MainColor
+    - _TopLight
+    - _RightLight
+    - _FrontLight
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _UseLightMap
+    - _FogColor
+    - _FogYStartPos
+    - _FogHeight
+    - _FogAnimationHeight
+    - _FogAnimationFreq
+    - _UseFogDistance
+    - _FogStart
+    - _FogEnd
+    - _FogDensity
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 0400000004000000020000000000000002000000020000000200000000000000020000000000000000000000020000000000000002000000020000000200000000000000020000000200000002000000020000000200000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 0000000000000000000000000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingSoftFog
+    PropertyCount: 26
+    PropertyDescriptions:
+    - Texture
+    - Front Color
+    - Top Color
+    - Right Color
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Enabled
+    - Lightmap Tint
+    - Lightmap Power
+    - Lightmap Light
+    - Fog color
+    - Fog Y-start pos
+    - Fog Height
+    - Fog Animation Height
+    - Fog Animation Frequency
+    - Distance Fog
+    - Distance Start
+    - Distance End
+    - Distance Density
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _FrontColor
+    - _TopColor
+    - _RightColor
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _UseLightMap
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _FogColor
+    - _FogYStartPos
+    - _FogHeight
+    - _FogAnimationHeight
+    - _FogAnimationFreq
+    - _UseFogDistance
+    - _FogStart
+    - _FogEnd
+    - _FogDensity
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 0400000000000000000000000000000000000000020000000000000000000000020000000200000000000000020000000200000000000000020000000200000002000000020000000200000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 0000000000000000000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/CustomLightingSoftFogAlpha
+    PropertyCount: 27
+    PropertyDescriptions:
+    - Texture
+    - Alpha
+    - Front Color
+    - Top Color
+    - Right Color
+    - Rim Color
+    - Rim Power
+    - Light Tint
+    - Ambient Color
+    - Ambient Power
+    - Lightmap Enabled
+    - Lightmap Tint
+    - Lightmap Power
+    - Lightmap Light
+    - Fog color
+    - Fog Y-start pos
+    - Fog Height
+    - Fog Animation Height
+    - Fog Animation Frequency
+    - Distance Fog
+    - Distance Start
+    - Distance End
+    - Distance Density
+    - Front Light Direction
+    - Top Light Direction
+    - Right Light Direction
+    - Directional Light
+    PropertyNames:
+    - _MainTex
+    - _Alpha
+    - _FrontColor
+    - _TopColor
+    - _RightColor
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _UseLightMap
+    - _LightmapColor
+    - _LightmapPower
+    - _ShadowPower
+    - _FogColor
+    - _FogYStartPos
+    - _FogHeight
+    - _FogAnimationHeight
+    - _FogAnimationFreq
+    - _UseFogDistance
+    - _FogStart
+    - _FogEnd
+    - _FogDensity
+    - _LightDirF
+    - _LightDirT
+    - _LightDirR
+    - _UseDirLight
+    PropertyTypes: 040000000300000000000000000000000000000000000000020000000000000000000000020000000200000000000000020000000200000000000000020000000200000002000000020000000200000002000000020000000200000001000000010000000100000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 1
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 000000000000000000000000000000000000000000000001010100
+  - Name: Kirnu/Marvelous/DefaultTexture
+    PropertyCount: 1
+    PropertyDescriptions:
+    - Texture
+    PropertyNames:
+    - _MainTex
+    PropertyTypes: 04000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 02000000
+    IsHidden: 00
+  - Name: Kirnu/Marvelous/FlagWave
+    PropertyCount: 5
+    PropertyDescriptions:
+    - Texture
+    - Color
+    - Wave Magnitude
+    - Wave Frequency
+    - Wave Length
+    PropertyNames:
+    - _MainTex
+    - _Color
+    - _Magnitude
+    - _Frequency
+    - _WaveLength
+    PropertyTypes: 0400000000000000020000000200000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000000000000000000000000000000000000
+    IsHidden: 0000000000
+  - Name: Kirnu/Marvelous/FloatingLeaf
+    PropertyCount: 2
+    PropertyDescriptions:
+    - Color 1
+    - Color 2
+    PropertyNames:
+    - _Color1
+    - _Color2
+    PropertyTypes: 0000000000000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0000000000000000
+    IsHidden: 0000
+  - Name: Kirnu/Marvelous/Flower
+    PropertyCount: 5
+    PropertyDescriptions:
+    - Color 1
+    - Color 2
+    - X Power
+    - Y Power
+    - Z Power
+    PropertyNames:
+    - _Color1
+    - _Color2
+    - _PowerX
+    - _PowerY
+    - _PowerZ
+    PropertyTypes: 0000000000000000020000000200000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0000000000000000000000000000000000000000
+    IsHidden: 0000000000
+  - Name: Kirnu/Marvelous/LinearGradientBG
+    PropertyCount: 3
+    PropertyDescriptions:
+    - Top Color
+    - Bottom Color
+    - Ratio
+    PropertyNames:
+    - _TopColor
+    - _BottomColor
+    - _Ratio
+    PropertyTypes: 000000000000000003000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0.5
+      Min: 0
+      Max: 1
+    PropertyTexDims: 000000000000000000000000
+    IsHidden: 000000
+  - Name: Kirnu/Marvelous/LinearGradientBGImage
+    PropertyCount: 2
+    PropertyDescriptions:
+    - Texture
+    - Tint Color
+    PropertyNames:
+    - _MainTex
+    - _TintColor
+    PropertyTypes: 0400000000000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000000000000
+    IsHidden: 0000
+  - Name: Kirnu/Marvelous/LinearGradientBGPixel
+    PropertyCount: 4
+    PropertyDescriptions:
+    - Texture
+    - Top Color
+    - Bottom Color
+    - Ratio
+    PropertyNames:
+    - _MainTex
+    - _TopColor
+    - _BottomColor
+    - _Ratio
+    PropertyTypes: 04000000000000000000000003000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0.5
+      Min: 0
+      Max: 1
+    PropertyTexDims: 02000000000000000000000000000000
+    IsHidden: 01000000
+  - Name: Kirnu/Marvelous/LinearGradientBGPixel3Color
+    PropertyCount: 5
+    PropertyDescriptions:
+    - Texture
+    - Top Color
+    - Middle Color
+    - Bottom Color
+    - Middle
+    PropertyNames:
+    - _MainTex
+    - _TopColor
+    - _MidColor
+    - _BottomColor
+    - _Middle
+    PropertyTypes: 0400000000000000000000000000000003000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0.5
+      Min: 0
+      Max: 1
+    PropertyTexDims: 0200000000000000000000000000000000000000
+    IsHidden: 0100000000
+  - Name: Kirnu/Marvelous/OceanDepth
+    PropertyCount: 8
+    PropertyDescriptions:
+    - Foam Map
+    - Color map
+    - Light Direction
+    - Foam speed
+    - Foam color
+    - Foam power
+    - Foam y-level
+    - Foam threshold
+    PropertyNames:
+    - _FoamMap
+    - _ColorMap
+    - _LightDir
+    - _FoamSpeed
+    - _FoamColor
+    - _FoamPower
+    - _FoamLevel
+    - _FoamThreshold
+    PropertyTypes: 0400000004000000010000000200000000000000020000000200000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000002000000000000000000000000000000000000000000000000000000
+    IsHidden: 0000000000000000
+  - Name: Kirnu/Marvelous/OceanOpaque
+    PropertyCount: 2
+    PropertyDescriptions:
+    - Color map
+    - Light Direction
+    PropertyNames:
+    - _ColorMap2
+    - _LightDir
+    PropertyTypes: 0400000001000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000000000000
+    IsHidden: 0000
+  - Name: Kirnu/Marvelous/OneColor
+    PropertyCount: 1
+    PropertyDescriptions:
+    - Color
+    PropertyNames:
+    - _Color
+    PropertyTypes: 00000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 00000000
+    IsHidden: 00
+  - Name: Kirnu/Marvelous/ScreenTextureBlend
+    PropertyCount: 7
+    PropertyDescriptions:
+    - 
+    - 
+    - Mode
+    - b1
+    - b2
+    - b3
+    - b4
+    PropertyNames:
+    - _MainTex
+    - _Gradient
+    - _BlendMode
+    - _B1
+    - _B2
+    - _B3
+    - _B4
+    PropertyTypes: 04000000040000000200000002000000020000000200000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 02000000020000000000000000000000000000000000000000000000
+    IsHidden: 00000001010101
+  - Name: Kirnu/Marvelous/TextureAnimationTransparent
+    PropertyCount: 14
+    PropertyDescriptions:
+    - Texture
+    - U Speed
+    - V Speed
+    - Wave Magnitude
+    - Wave Frequency
+    - Wave Length
+    - Front color
+    - Top Color
+    - Right Color
+    - Rim colour
+    - Rim Power
+    - Light Multiplier
+    - Ambient Color
+    - Ambient Power
+    PropertyNames:
+    - _MainTex
+    - _USpeed
+    - _VSpeed
+    - _WaveMagnitude
+    - _WaveFrequency
+    - _WaveLength
+    - _FrontColor
+    - _TopColor
+    - _RightColor
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    PropertyTypes: 0400000002000000020000000200000002000000020000000000000000000000000000000000000002000000000000000000000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 0000000000000000000000000000
+  - Name: Kirnu/Marvelous/TextureBG
+    PropertyCount: 1
+    PropertyDescriptions:
+    - Texture
+    PropertyNames:
+    - _MainTex
+    PropertyTypes: 04000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 02000000
+    IsHidden: 00
+  - Name: Kirnu/Marvelous/Transparent
+    PropertyCount: 2
+    PropertyDescriptions:
+    - Texture
+    - Color
+    PropertyNames:
+    - _MainTex
+    - _Color
+    PropertyTypes: 0400000000000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000000000000
+    IsHidden: 0000
+  - Name: Kirnu/Marvelous/Transparent2
+    PropertyCount: 2
+    PropertyDescriptions:
+    - Texture
+    - Color
+    PropertyNames:
+    - _MainTex
+    - _Color
+    PropertyTypes: 0400000000000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000000000000
+    IsHidden: 0000
+  - Name: Kirnu/Marvelous/TransparentAdditive
+    PropertyCount: 3
+    PropertyDescriptions:
+    - Texture
+    - Color
+    - Power
+    PropertyNames:
+    - _MainTex
+    - _Color
+    - _Power
+    PropertyTypes: 040000000000000003000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0.5
+      Min: 0
+      Max: 1
+    PropertyTexDims: 020000000000000000000000
+    IsHidden: 000000
+  - Name: Kirnu/Marvelous/TransparentAdditiveFG
+    PropertyCount: 3
+    PropertyDescriptions:
+    - Texture
+    - Color
+    - Power
+    PropertyNames:
+    - _MainTex
+    - _Color
+    - _Power
+    PropertyTypes: 040000000000000003000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0.5
+      Min: 0
+      Max: 1
+    PropertyTexDims: 020000000000000000000000
+    IsHidden: 000000
+  - Name: Kirnu/Marvelous/VignetteFG
+    PropertyCount: 3
+    PropertyDescriptions:
+    - Color
+    - Max value
+    - Intensity
+    PropertyNames:
+    - _Color
+    - _VignetteMax
+    - _Power
+    PropertyTypes: 000000000300000003000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0.5
+      Min: 0
+      Max: 1
+    - Def: 0.5
+      Min: 0
+      Max: 1
+    PropertyTexDims: 000000000000000000000000
+    IsHidden: 000000
+  - Name: Kirnu/Marvelous/WaterBox
+    PropertyCount: 12
+    PropertyDescriptions:
+    - Front color
+    - Top Color
+    - Right Color
+    - Rim colour
+    - Rim Power
+    - Light Multiplier
+    - Ambient Color
+    - Ambient Power
+    - Opacity
+    - Wave Magnitude
+    - Wave Frequency
+    - Wave Length
+    PropertyNames:
+    - _FrontColor
+    - _TopColor
+    - _RightColor
+    - _RimColor
+    - _RimPower
+    - _LightTint
+    - _AmbientColor
+    - _AmbientPower
+    - _Opacity
+    - _Magnitude
+    - _Frequency
+    - _Wavelength
+    PropertyTypes: 000000000000000000000000000000000200000000000000000000000200000002000000020000000200000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 000000000000000000000000
+  - Name: Kirnu/Marvelous/Waterfall
+    PropertyCount: 10
+    PropertyDescriptions:
+    - Texture
+    - U Speed
+    - V Speed
+    - Wave Magnitude
+    - Wave Frequency
+    - Wave Length
+    - Color
+    - Highlight Length
+    - Highlight Fade
+    - Highlight color
+    PropertyNames:
+    - _MainTex
+    - _USpeed
+    - _VSpeed
+    - _WaveMagnitude
+    - _WaveFrequency
+    - _WaveLength
+    - _Color
+    - _HighlightLength
+    - _HighlightFade
+    - _HighlightColor
+    PropertyTypes: 04000000020000000200000002000000020000000200000000000000020000000200000000000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 02000000000000000000000000000000000000000000000000000000000000000000000000000000
+    IsHidden: 00000000000000000000
+  - Name: Kirnu/Marvelous/WaterPool
+    PropertyCount: 5
+    PropertyDescriptions:
+    - Texture (RGB)
+    - Wave Magnitude
+    - Wave Frequency
+    - Wave Length
+    - Speed
+    PropertyNames:
+    - _MainTex
+    - _WaveMagnitude
+    - _WaveFrequency
+    - _WaveLength
+    - _Speed
+    PropertyTypes: 0400000002000000020000000200000002000000
+    PropertyRangeLimits:
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    - Def: 0
+      Min: 0
+      Max: 0
+    PropertyTexDims: 0200000000000000000000000000000000000000
+    IsHidden: 0000000000
   - Name: Legacy Shaders/Bumped Diffuse
     PropertyCount: 3
     PropertyDescriptions:
