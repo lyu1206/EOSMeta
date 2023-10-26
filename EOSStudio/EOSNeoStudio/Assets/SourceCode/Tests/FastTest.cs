@@ -1,21 +1,19 @@
 using System;
-using System.IO;
 using System.Collections.Generic;
-using System.Data.SqlTypes;
+using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
-using UnityEngine;
-using Battlehub.RTSL;
 using Battlehub.RTCommon;
+using Battlehub.RTSL;
 using Battlehub.RTSL.Battlehub.SL2;
 using Battlehub.RTSL.Interface;
+using Eos.Objects;
+using Eos.Service;
+using UnityEditor.Animations;
+using UnityEngine;
 using UnityEngine.Battlehub.SL2;
-using UnityObject = UnityEngine.Object;
-using Battlehub.Utils;
-using ProtoBuf.Meta;
-using System.Linq;
-using Photon.Pun;
-using ProtoBuf;
 using UnityEngine.Networking;
+using UnityObject = UnityEngine.Object;
 
 namespace Battlehub.RTSL
 {
@@ -26,9 +24,6 @@ namespace Battlehub.RTSL
 }
 namespace Eos.Test
 {
-    using EosPlayer;
-    using Objects;
-    using Service;
     public class FastTest : Project
     {
         public static FastTest Instace;
@@ -73,7 +68,7 @@ namespace Eos.Test
             }
             DestroyImmediate(obj);
             //Destroy(to);
-            GameObject.DestroyImmediate(convertgm);
+            DestroyImmediate(convertgm);
             return to;
         }
         private Tuple<RemoteAssetItem,PersistentObject<long>, Dictionary<long,PersistentObject<long>>> PTest(GameObject obj)
@@ -123,7 +118,7 @@ namespace Eos.Test
             foreach (var dep in context.Dependencies)
             {
                 Type persisttype = null;
-                if (dep.GetType() == typeof(UnityEditor.Animations.AnimatorController))
+                if (dep.GetType() == typeof(AnimatorController))
                 {
                     persisttype = typeof(PersistentRuntimeAnimatorController<long>);
                 }
@@ -346,7 +341,7 @@ namespace Eos.Test
         {
             var _resourcesmeta = EOSResource.Instance.Resourcesmeta;
 
-            EosPlayer.Instance.Play();
+            EosPlayer.EosPlayer.Instance.Play();
             return;
             
             
@@ -445,7 +440,7 @@ namespace Eos.Test
             EOSResource.Instance.SaveSolution(solution);
 
 //            EosPlayer.Instance.SetSolution(solution as Solution);
-            EosPlayer.Instance.Play();
+            EosPlayer.EosPlayer.Instance.Play();
         }
 
         List<Action> _asyncwork = new List<Action>();
@@ -467,13 +462,13 @@ namespace Eos.Test
         void Update()
         {
             var direction = Vector3.zero;
-            if (EosPlayer.Instance.Solution==null)
+            if (EosPlayer.EosPlayer.Instance.Solution==null)
                 return;
-            if (EosPlayer.Instance.Solution.Players==null)
+            if (EosPlayer.EosPlayer.Instance.Solution.Players==null)
                 return;
-            if (EosPlayer.Instance.Solution.Players.LocalPlayer==null)
+            if (EosPlayer.EosPlayer.Instance.Solution.Players.LocalPlayer==null)
                 return;
-            var h = EosPlayer.Instance.Solution.Players.LocalPlayer.Humanoid;
+            var h = EosPlayer.EosPlayer.Instance.Solution.Players.LocalPlayer.Humanoid;
             if (h==null)
                 return;
             if (Input.GetKey(KeyCode.W))
